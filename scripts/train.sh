@@ -9,4 +9,5 @@ python train.py \
   --output_dir model/ \
   --device 0,1,2,3 \
   --num_pieces 100 \
+  --batch_size 2 \
   --raw
